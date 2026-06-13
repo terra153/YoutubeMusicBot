@@ -3,10 +3,15 @@ It's a preview version, expect bugs/unhandled exceptions
 
 Requirements:
 
-ffmpeg.
-opus (libopus for linux).
-yt-dlp.
-deno.
+ffmpeg
+
+opus (libopus for linux)
+
+yt-dlp
+
+deno
+
+.net 10.0
 
 file cookies.txt.
 
