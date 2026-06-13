@@ -15,6 +15,10 @@ namespace YoutubeMusicBot.Services
         Random _random = new();
         public async Task<string?> Download(string VideoURL)
         {
+            if (!Directory.Exists($"{Directory.GetCurrentDirectory() + "/YtDownloads/"}"))
+            {
+                Directory.CreateDirectory($"{Directory.GetCurrentDirectory() + "/YtDownloads/"}");
+            }
             int id = _random.Next(999999999);
 
             //10 быстрых попыток
