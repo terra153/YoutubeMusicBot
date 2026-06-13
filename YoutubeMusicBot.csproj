@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="libsodium" Version="1.0.22"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.8"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.8"/>
+    <PackageReference Include="NetCord" Version="1.0.0-alpha.488"/>
+    <PackageReference Include="NetCord.Services" Version="1.0.0-alpha.488"/>
+    <PackageReference Include="YoutubeExplodeNoPolytics" Version="7.0.1"/>
+    <PackageReference Include="YoutubeExplodeNoPolytics.Converter" Version="7.0.1"/>
+  </ItemGroup>
+</Project>
